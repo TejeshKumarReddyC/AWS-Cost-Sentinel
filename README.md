@@ -1,4 +1,4 @@
-**AWS-automated-cost-optimization-tool**
+**AWS-Cost-Sentinel**
 
 **Workflow:-**
 
