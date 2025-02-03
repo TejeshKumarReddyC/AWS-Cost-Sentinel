@@ -8,7 +8,7 @@ Event-Bridge ---> Lambda(Collects the cost data from cost explorer) ---> S3 && S
 
 **Step2**:-  Attach the appropriate permissions to lambda for accessing S3, SNS.
 
-**Step3**:-  Schedule a job in the **Event-Bridge** which triggers the lambda function.
+**Step3**:-  Schedule a job in the **Event-Bridge** which triggers the lambda function on daily or monthly basis.
 
 **Step4**:-  Create a S3 bucket for storing the cost-reports for further analysis.
 
