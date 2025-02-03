@@ -4,7 +4,7 @@
 
 Event-Bridge ---> Lambda(Collects the cost data from cost explorer) ---> S3 && SNS Notification.
 
-**Step1**:-  Create a lambda function and  a layer which contains the helper function( gets total cost & service wise cost).
+**Step1**:-  Create a lambda function & a layer which contains the helper function( gets total cost & service wise cost) and attach that layer to lambda function.
 
 **Step2**:-  Attach the appropriate permissions to lambda for accessing S3, SNS.
 
